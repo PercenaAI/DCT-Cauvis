@@ -1,4 +1,4 @@
-# SaaS Public Release: DCT-Cauvis on S-DGOD
+# DCT-Cauvis on S-DGOD
 
 ## Method Summary
 
