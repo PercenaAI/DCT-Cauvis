@@ -1,0 +1,104 @@
+{
+  "verdict": "partially_supported",
+  "gate_status": "pass",
+  "baseline_metrics": {
+    "pascal_voc/Daytime_Sunny_mAP": 0.7411240935325623,
+    "pascal_voc/Daytime_Sunny_AP50": 0.741,
+    "pascal_voc/Daytime-Foggy_mAP": 0.5647585988044739,
+    "pascal_voc/Daytime-Foggy_AP50": 0.565,
+    "pascal_voc/Dusk-rainy_mAP": 0.6500633955001831,
+    "pascal_voc/Dusk-rainy_AP50": 0.65,
+    "pascal_voc/Night_rainy_mAP": 0.4754609763622284,
+    "pascal_voc/Night_rainy_AP50": 0.475,
+    "pascal_voc/Night-Sunny_mAP": 0.6061872839927673,
+    "pascal_voc/Night-Sunny_AP50": 0.606,
+    "pascal_voc/mean_mAP": 0.607518869638443,
+    "pascal_voc/mean_AP50": 0.6073999999999999,
+    "data_time": 0.0021089778258929566,
+    "time": 0.13066554759098933
+  },
+  "candidate_metrics": {
+    "pascal_voc/Daytime_Sunny_mAP": 0.752533495426178,
+    "pascal_voc/Daytime_Sunny_AP50": 0.753,
+    "pascal_voc/Daytime-Foggy_mAP": 0.5705812573432922,
+    "pascal_voc/Daytime-Foggy_AP50": 0.571,
+    "pascal_voc/Dusk-rainy_mAP": 0.6423958539962769,
+    "pascal_voc/Dusk-rainy_AP50": 0.642,
+    "pascal_voc/Night_rainy_mAP": 0.4798632264137268,
+    "pascal_voc/Night_rainy_AP50": 0.48,
+    "pascal_voc/Night-Sunny_mAP": 0.6185398101806641,
+    "pascal_voc/Night-Sunny_AP50": 0.619,
+    "pascal_voc/mean_mAP": 0.6127827286720275,
+    "pascal_voc/mean_AP50": 0.613
+  },
+  "derived": {
+    "targetMeanBase": 0.574,
+    "targetMeanCand": 0.5780000000000001,
+    "targetMeanDelta": 0.004000000000000115,
+    "allMeanDelta": 0.005600000000000049,
+    "targetWins": [
+      "Daytime-Foggy",
+      "Night_rainy",
+      "Night-Sunny"
+    ],
+    "sourceDelta": 0.01200000000000001
+  },
+  "rows": [
+    {
+      "metric": "Daytime_Sunny AP50",
+      "candidate": 0.753,
+      "baseline": 0.741,
+      "delta": 0.01200000000000001,
+      "relative_delta": 0.016194331983805682,
+      "outcome": "win"
+    },
+    {
+      "metric": "Daytime-Foggy AP50",
+      "candidate": 0.571,
+      "baseline": 0.565,
+      "delta": 0.006000000000000005,
+      "relative_delta": 0.010619469026548683,
+      "outcome": "win"
+    },
+    {
+      "metric": "Dusk-rainy AP50",
+      "candidate": 0.642,
+      "baseline": 0.65,
+      "delta": -0.008000000000000007,
+      "relative_delta": -0.012307692307692318,
+      "outcome": "loss"
+    },
+    {
+      "metric": "Night_rainy AP50",
+      "candidate": 0.48,
+      "baseline": 0.475,
+      "delta": 0.0050000000000000044,
+      "relative_delta": 0.010526315789473694,
+      "outcome": "win"
+    },
+    {
+      "metric": "Night-Sunny AP50",
+      "candidate": 0.619,
+      "baseline": 0.606,
+      "delta": 0.013000000000000012,
+      "relative_delta": 0.021452145214521472,
+      "outcome": "win"
+    },
+    {
+      "metric": "target_mean_AP50",
+      "candidate": 0.5780000000000001,
+      "baseline": 0.574,
+      "delta": 0.004000000000000115,
+      "relative_delta": 0.006968641114982779,
+      "outcome": "win"
+    },
+    {
+      "metric": "all_domain_mean_AP50",
+      "candidate": 0.613,
+      "baseline": 0.6073999999999999,
+      "delta": 0.005600000000000049,
+      "relative_delta": 0.009219624629568735,
+      "outcome": "win"
+    }
+  ]
+}
