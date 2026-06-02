@@ -112,8 +112,3 @@ Unsupported by final verification: +1.0 absolute target mean gain and universal 
 - Aming Wu et al., **Cauvis repository**, https://github.com/lichen1015/Cauvis.
 - S-DGOD dataset repository, https://github.com/AmingWu/Single-DGOD.
 - Official benchmark-style checkpoint link (as reported in repo docs): `https://drive.google.com/file/d/1ZjddVB0h4ZYjZ3g2ve6BsQUamvOidTxj/view?usp=sharing`
-
-## Removed/Excluded in this public bundle
-
-- Full local dataset images, checkpoint binaries, logs, run artifacts, pipeline metadata, and local-infrastructure paths.
-- `research-pipeline-artifacts` internal reports and session traces.
